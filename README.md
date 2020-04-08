@@ -23,3 +23,7 @@
 	If we decide we want to work with these 'themes' we will need to 
 	decide specifically what data we want to work with. 
 	
+## Data left out
+	World bank data @ https://data.worldbank.org/ . Was too much content for me 
+	to decide what data we could use. Potential for using API through this link. 
+	Note we do have data from the World Bank in Health Systems.
