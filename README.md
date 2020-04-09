@@ -22,6 +22,7 @@ Q5: How has adding women adding to the workforce changed things? (GDP)
 - GDP vs. Satisfaction: https://ourworldindata.org/grapher/gdp-vs-happiness
     (H)
 - Alcohol consumption: https://apps.who.int/gho/data/node.main.A1036?lang=en
+- World happiness report: https://www.kaggle.com/unsdsn/world-happiness#2019.csv
 		
 ## Limiations
 - Datasets from "Women's employment" and "Hunger" had overlapping data which 	
