@@ -13,6 +13,7 @@ From this figure we could visualize some shifts in working hours and did some ex
 Part 2:
 Next I moved onto plotting working hours versus GDP but quickly found that my data contained a lot of empty values (0s) as well as 2 nonsense columns likely leftover from previous data cleaning. So I had to add in an additional data cleaning step to remove these before building a scatter plot with a linear regression line. The grouping of the points made me suspect that the data was likely grouping far more within nation and our r square value was not great because of differences between nations.
 I attempted a single nation graph by effectively making an exact copy of the code but filtering for only data with the code USA but this did not improve my r square value and issues with plot size halted my progress investigating this.
+UPDATE: plot size issue fixed by removing annotation of linear regression line
 To check if the points were indeed grouping by nation I made a seaborn plot using nation code as the hue argument and my suspicion was confirmed. 
 
 Part 3:
