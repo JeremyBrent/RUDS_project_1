@@ -23,4 +23,4 @@ Part 4:
 The final set of data I went to analyze was working hours vs productivity (measured in dollar generated per hour). For this I effectively recreated all the work I did for the gdp analysis, including the additional data cleaning step. The plot with all nations had a similarly poor r square value around -.5 and the seaborn displayed a large trend towards grouping within nation for data points. I did a USA only plot and found a much better r square of -.85, indicating a negative correlation between hours worked and productivity.
 
 Part 5:
-Next plan is to expand on this work by seeing if additional data points fix the gdp/hours worked scatter regressions and add in nicer formatting for the preferred graphs. I will also be looking for some statistical methods I can employ and will recreate the USA only productivity graph for some other nations to see if the trend fits.
+After seeing how the USA only graph I did a similar single nation graphing of working hours vs GDP working hours vs productivity for South Kora and Poland. I also added a coloring of the scatter dots by year to see if we could identify trends within nation clusters over time.
