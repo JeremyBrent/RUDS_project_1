@@ -21,30 +21,32 @@ Alcohol amount consumed in liters of pure alcohol was compared to annual hours w
 
 ## Results 
 1. Happiness and annual working hours displayed the following correlations: 
-	All countries overlapping countries for two datasets: Happiness vs. Annual Work Hours (n=64): r^2=-0.37
-		Additional variable analysis for all countries: 
-			Happiness vs. GDP (n=64): r^2=0.57
-			Happiness vs. Family (n=64): r^2=0.47
-			Happiness vs. Health & Life Expectancy (n=64): r^2=0.40
-			Happiness vs. Trust in Government and Corruption (n=64): r^2=0.41
-	Selected countries: Happiness vs. Annual Work Hours for 2017 (n=12) r^2=-0.4
+-All countries overlapping countries for two datasets: Happiness vs. Annual Work Hours (n=64): r^2=-0.37
+--Additional variable analysis for all countries: 
+---Happiness vs. GDP (n=64): r^2=0.57
+---Happiness vs. Family (n=64): r^2=0.47
+---Happiness vs. Health & Life Expectancy (n=64): r^2=0.40
+---Happiness vs. Trust in Government and Corruption (n=64): r^2=0.41
+--Selected countries: Happiness vs. Annual Work Hours for 2017 (n=12) r^2=-0.4
 
 There seems to be a downward trend for annual work and happiness scores. Although the correlation is not strong, there is a clear trend showing that the more you work, the less happy you tend to be. There are clear exceptions such as Mexico that rank high on the happiness scale but have one of the highest working hours in this data set. This could be related to factors that each culture defines as happiness. This data also showed that our "selected" countries were a good representation of the world as the r squared values between the two sets were close. 
 
 2. Alcohol consumption and annual working hours displayed the following correlations: 
-	All countries overlapping countries for two datasets: Alcohol Consumption vs. Annual Work Hours (n=57): r^2=-0.30
-		All countries: Males only: r^2=-0.26
-		All countries: Females only: r^2=-0.38	
-	Selected countries: Alcohol Consumption vs. Annual Work Hours for 2017 (n=12) r^2=-0.13
-		Selected countries: Males only: r^2=-0.08
-		Selected countries: Females only: r^2=-0.10
+-All countries overlapping countries for two datasets: Alcohol Consumption vs. Annual Work Hours (n=57): r^2=-0.30
+--All countries: Males only: r^2=-0.26
+--All countries: Females only: r^2=-0.38	
+-Selected countries: Alcohol Consumption vs. Annual Work Hours for 2017 (n=12) r^2=-0.13
+--Selected countries: Males only: r^2=-0.08
+--Selected countries: Females only: r^2=-0.23
 
 A lack of strong correlation was observed between the two data sets. The limitations of this analysis was the fact that alcohol is not universally consumed and that there are cultural and religious factors that need to be considered for an appropriate analysis. An interesting finding from this data set however was the fact that males consumed siginifically more alcohol per year than females. Our selected countries did not correlate well with the whole world sample here. 
 
 		
 ## Limitations
 - Happiness is a self-reported scale. People's understanding of happiness may not be universal. 
+
 - Alcohol data has only two year's worth of data. It might also be interesting to look at the types of alcohol consumed between the different countries. 
+
 - Cultural and religious factors need to accounted for, for the alcohol data. 
 	
  
