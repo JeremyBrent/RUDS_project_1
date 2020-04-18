@@ -1,3 +1,18 @@
+**Adriana notebook documentation
+
+NOTE: All jupyter notebooks reference output files that were held locally within the branch during the build, but have since been relocated to the master folder after merging. 
+
+data_cleaner.ipynb
+This notebook pulls in raw csv data and filters the data by nation and year to retrieve and output data for only 1950 onwards for our 12 nations (see comment below for logic on selection and list). Output files are intended to be placed in the data folder which has since been moved following branch merging.
+
+economic_analysis.ipynb
+This notebook generates analysis figures for the working hours, GDP, and productivity data. All figures use the data_cleaner.ipynb output files as source data. Minor data cleaned included to display cleaner data frames for context only. 
+
+
+
+
+**Workflow comments below:
+
 Stage 1 of my economic analysis was filtering the source data to include only information for our chosen years and nations.
 Years = 1950 to present
 Nations = 2 representatives from each continent* (USA, Mexico, Venezuela, Brazil, South Africa, Nigeria, Poland, Sweden, China, South Korea, Australia, Russia*)
@@ -23,4 +38,4 @@ Part 4:
 The final set of data I went to analyze was working hours vs productivity (measured in dollar generated per hour). For this I effectively recreated all the work I did for the gdp analysis, including the additional data cleaning step. The plot with all nations had a similarly poor r square value around -.5 and the seaborn displayed a large trend towards grouping within nation for data points. I did a USA only plot and found a much better r square of -.85, indicating a negative correlation between hours worked and productivity.
 
 Part 5:
-Next plan is to expand on this work by seeing if additional data points fix the gdp/hours worked scatter regressions and add in nicer formatting for the preferred graphs. I will also be looking for some statistical methods I can employ and will recreate the USA only productivity graph for some other nations to see if the trend fits.
+After seeing how the USA only graph I did a similar single nation graphing of working hours vs GDP working hours vs productivity for South Kora and Poland. I also added a coloring of the scatter dots by year to see if we could identify trends within nation clusters over time.
