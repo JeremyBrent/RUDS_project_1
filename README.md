@@ -20,7 +20,7 @@ Amount of Alcohol Consumed vs. Annual Working Hours
 ## Tools: 
 - All analyses were done in Jupyter Notebook using pandas and matplotlib  
 
-## General Conclusions
+## General Conclusions:
 - Happiness decreases the more hours we work 
 - Alcohol and working hours have no strong correlation 
 - However, males drink consistently more than females all over the world 
@@ -36,7 +36,7 @@ Amount of Alcohol Consumed vs. Annual Working Hours
 ## Data: 
 Annual hours, GDP, and productivity data were obtained from [Our World in Data](https://ourworldindata.org/working-hours) and cleaned.
 
-## File explanation
+## File explanation:
 - data_cleaner.ipynb is the initial data cleaning notebook which takes raw input and filtered to selected nation and year. Outputs cleaned data.
 - economic_anaysis.ipynb is the figure generating notebook which takes the cleaned files and generates figures to answer the above questions.
 
@@ -48,7 +48,7 @@ Location of the data folder was moved post merge with the master branch.
 - Analysis done using scipy.stats.
 - Figures built using matplotlib and seaborn.
 
-## General Conclusions
+## General Conclusions:
 - For the majority of nation's graphed a slight decline in annual hours worked over the past 70 years can be seen.
 - Working hours vs GDP and working hours vs productivity is extremely nation dependant but graphing by single nation shows a clear correlation of a negative relationship in both.
 
@@ -99,7 +99,7 @@ Counties with lower happiness scores showed a decline in GDP over time.
 ## Tools: 
 - All analyses were done in Jupyter Notebook using pandas, matplotlib, scipy, seaborn, and plotly. 
 
-## General Conclusions
+## General Conclusions:
 - Sweden and Australia tended to have the highest happiness scores. 
 - Cantril Happiness remained relatively consistent over time for most countries with exemption to Venezula who saw a sharp decline in happiness score in 2014. 
 - Cantril Happiness and Working Hours had a small to moderate relationship (r<sup>2</sup> = .41) with a negative slope. 
