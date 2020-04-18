@@ -22,6 +22,10 @@
 12. What is the relationship between annual working hours and productivity?
 13. What is the correlation between all of the variables we looked at?
 
+## Conclusions
+Can be found in the readme file.
+Conclusions are split by notebook. 
+
 ## Limitations
 1. Data availability 
 2. Project scope/personal skill limitations
