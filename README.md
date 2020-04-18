@@ -18,13 +18,13 @@ Amount of Alcohol Consumed vs. Annual Working Hours
 - Second file contains representative countries chosen by that group for 2016: analysis done for combined sex, males only, females only (kasia-alcohol.ipynb)
 
 ## Tools: 
--- All analyses were done in Jupyter Notebook using pandas and matplotlib  
+- All analyses were done in Jupyter Notebook using pandas and matplotlib  
 
 ## General Conclusions
--- Happiness decreases the more hours we work 
--- Alcohol and working hours have no strong correlation 
--- However, males drink consistently more than females all over the world 
--- Specific stats are described in depth within the Notebook’s Read Me 
+- Happiness decreases the more hours we work 
+- Alcohol and working hours have no strong correlation 
+- However, males drink consistently more than females all over the world 
+- Specific stats are described in depth within the Notebook’s Read Me 
 
 # **Navigating Adriana’s Notebook:**
 
@@ -34,7 +34,7 @@ Amount of Alcohol Consumed vs. Annual Working Hours
 3. What is the relationship between annual working hours and productivity?
 
 ## Data: 
-Annual hours, GDP, and productivity data were obtained from ourworldindata.org and cleaned.
+Annual hours, GDP, and productivity data were obtained from [Our World in Data](https://ourworldindata.org/working-hours) and cleaned.
 
 ## File explanation
 - data_cleaner.ipynb is the initial data cleaning notebook which takes raw input and filtered to selected nation and year. Outputs cleaned data.
