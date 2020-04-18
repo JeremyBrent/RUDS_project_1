@@ -94,7 +94,7 @@ Counties with lower happiness scores showed a decline in GDP over time.
 
 ## Data: 
 - World Happiness Report data was obtained on Kaggle (https://www.kaggle.com/unsdsn/world-happiness#2019.csv)
-- 
+- Mental Health Data was obtained on Our World in Data (https://ourworldindata.org/mental-health)
 
 ## Tools: 
 - All analyses were done in Jupyter Notebook using pandas, matplotlib, scipy, seaborn, and plotly. 
