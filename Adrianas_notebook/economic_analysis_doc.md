@@ -1,3 +1,18 @@
+**Adriana notebook documentation
+
+NOTE: All jupyter notebooks reference output files that were held locally within the branch during the build, but have since been relocated to the master folder after merging. 
+
+data_cleaner.ipynb
+This notebook pulls in raw csv data and filters the data by nation and year to retrieve and output data for only 1950 onwards for our 12 nations (see comment below for logic on selection and list). Output files are intended to be placed in the data folder which has since been moved following branch merging.
+
+economic_analysis.ipynb
+This notebook generates analysis figures for the working hours, GDP, and productivity data. All figures use the data_cleaner.ipynb output files as source data. Minor data cleaned included to display cleaner data frames for context only. 
+
+
+
+
+**Workflow comments below:
+
 Stage 1 of my economic analysis was filtering the source data to include only information for our chosen years and nations.
 Years = 1950 to present
 Nations = 2 representatives from each continent* (USA, Mexico, Venezuela, Brazil, South Africa, Nigeria, Poland, Sweden, China, South Korea, Australia, Russia*)
