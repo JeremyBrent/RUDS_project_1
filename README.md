@@ -93,14 +93,8 @@ Counties with lower happiness scores showed a decline in GDP over time.
 
 
 ## Data: 
-Happiness vs. Annual Working Hours 
-- First file focuses on all overlapping countries between the two subsets for 2017 (kasia-happy-all.ipynb)
-- Second file contains representative countries chosen by that group for 2017  (kasia-happy.ipynb)
-- Each notebook contains additional analyses included for other factors outside of working hours that could correlate to happiness 
-
-Amount of Alcohol Consumed vs. Annual Working Hours 
-- First file focuses on all overlapping countries between the two subsets for 2016: analysis done for combined sex, males only, females only (kasia-alcohol-all.ipynb) 
-- Second file contains representative countries chosen by that group for 2016: analysis done for combined sex, males only, females only (kasia-alcohol.ipynb)
+- World Happiness Report data was obtained on Kaggle (https://www.kaggle.com/unsdsn/world-happiness#2019.csv)
+- 
 
 ## Tools: 
 - All analyses were done in Jupyter Notebook using pandas, matplotlib, scipy, seaborn, and plotly. 
