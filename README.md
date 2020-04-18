@@ -41,7 +41,7 @@ Annual hours, GDP, and productivity data were obtained from [Our World in Data](
 - economic_anaysis.ipynb is the figure generating notebook which takes the cleaned files and generates figures to answer the above questions.
 
 **_NOTE:_ Both files assume that the input and output csv file path is located within a data folder at the same level of the notebook.**
-Location of the data folder was mosted post merging with the master branch. 
+Location of the data folder was moved post merge with the master branch. 
 
 ## Tools: 
 - All data wrangling done using pandas and numpy. 
