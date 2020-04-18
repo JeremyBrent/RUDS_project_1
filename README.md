@@ -26,4 +26,32 @@ Tools:
 -- However, males drink consistently more than females all over the world 
 -- Specific stats are described in depth within the Notebook’s Read Me 
 
+# **Navigating Adriana’s Notebook: **
+
+## Questions: 
+1. Have the annual hours worked changed over the past 70 years for our representative nations?
+2. What is the relationship between annual working hours and national GDP?
+3. What is the relationship between annual working hours and productivity?
+
+## Data: 
+Annual hours, GDP, and productivity data were obtained from ourworldindata.org and cleaned.
+
+##File explanation
+-data_cleaner.ipynb is the initial data cleaning notebook which takes raw input and filtered to selected nation and year. Outputs cleaned data.
+-economic_anaysis.ipynb is the figure generating notebook which takes the cleaned files and generates figures to answer the above questions.
+
+**_NOTE:_ Both files assume that the input and output csv file path is located within a data folder at the same level of the notebook.**
+Location of the data folder was mosted post merging with the master branch. 
+
+## Tools: 
+-All data wrangling done using pandas and numpy. 
+-Analysis done using scipy.stats.
+-Figures built using matplotlib and seaborn.
+
+## General Conclusions
+-For the majority of nation's graphed a slight decline in annual hours worked over the past 70 years can be seen.
+-Working hours vs GDP and working hours vs productivity is extremely nation dependant but graphing by single nation shows a clear correlation of a negative relationship in both.
+
+##
+For more detail please reference documentation within Adriana's Notebook.
 
