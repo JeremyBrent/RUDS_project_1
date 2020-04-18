@@ -4,8 +4,8 @@
 
 ## Questions: 
 In these two sub-question, we seek to answer the following questions: 
-1) Does working more make us less happy? 
-2) Is there a correlation between working hours and amount of alcohol consumed?
+1. Does working more make us less happy? 
+2. Is there a correlation between working hours and amount of alcohol consumed?
 
 ## Data: 
 Happiness vs. Annual Working Hours 
@@ -57,12 +57,12 @@ For more detail please reference documentation within Adriana's Notebook.
 
 # **Navigating Matteo’s Notebook:**
 
-# Questions:
+## Questions:
 
 In this sub-question, we seek to answer the following questions: 
 1.	Is there a correlation between GDP per Capita and the overall happiness of a country?
 
-# Data:
+## Data:
 
 GDP vs. Happiness (Life satisfaction, Cantril Ladder 0-10) – Cleaned up data some more to make it usable for my analysis. Removing unneeded columns and setting fields to numeric all in my jupyter notebook (GDP_vs_Happiness.ipynb). 
 
@@ -71,10 +71,43 @@ GDP vs. Happiness (Life satisfaction, Cantril Ladder 0-10) – Cleaned up data s
 2nd Analysis – I then gathered all the countries from the entire dataset and plotted them to also check if the same applied from my 1st analysis. 
 Tools: -- All analysis were done in Jupyter Notebook using pandas and matplotlib
 
-# Conclusions:
+## Conclusions:
 
 From my 1st and 2nd analysis using this dataset we can determine that there is a correlation between GDP and happiness. 
 
 Countries with higher happiness scores showed an increase in GDP over time.
 
 Counties with lower happiness scores showed a decline in GDP over time.  
+
+
+# **Navigating Jeremy’s Notebook:** 
+
+## Questions: 
+1. What is the average World Happiness Report Scores for the chosen countries?
+2. What is the prevelance of mental health and substance use disorders for the chosen countries?
+3. What is the average Cantril Happiness Scores for the chosen countries?
+4. How has Cantril Happiness Scores changed over time?
+5. What is the relationship between Cantril Happiness Scores and Working hours?
+6. What is the relationship between Mental Health and Substance Use Disorders and Working hours?
+7. What is the correlation between all of the variables we looked at?
+
+
+## Data: 
+Happiness vs. Annual Working Hours 
+- First file focuses on all overlapping countries between the two subsets for 2017 (kasia-happy-all.ipynb)
+- Second file contains representative countries chosen by that group for 2017  (kasia-happy.ipynb)
+- Each notebook contains additional analyses included for other factors outside of working hours that could correlate to happiness 
+
+Amount of Alcohol Consumed vs. Annual Working Hours 
+- First file focuses on all overlapping countries between the two subsets for 2016: analysis done for combined sex, males only, females only (kasia-alcohol-all.ipynb) 
+- Second file contains representative countries chosen by that group for 2016: analysis done for combined sex, males only, females only (kasia-alcohol.ipynb)
+
+## Tools: 
+- All analyses were done in Jupyter Notebook using pandas, matplotlib, scipy, seaborn, and plotly. 
+
+## General Conclusions
+- Sweden and Australia tended to have the highest happiness scores. 
+- Cantril Happiness remained relatively consistent over time for most countries with exemption to Venezula who saw a sharp decline in happiness score in 2014. 
+- Cantril Happiness and Working Hours had a small to moderate relationship (r<sup>2</sup> = .41) with a negative slope. 
+- Mental Health and Substance Use Disorders and Working Hours had a  moderate relationship (r<sup>2</sup> = .46) with a negative slope
+
