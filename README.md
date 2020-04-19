@@ -82,6 +82,9 @@ Counties with lower happiness scores showed a decline in GDP over time.
 
 # **Navigating Jeremy’s Notebook:** 
 
+## Files:
+All of the cleaning and analysis occured in the [Data_analysis.ipynb](https://github.com/JeremyBrent/RUDS_project_1/blob/master/Jeremys_notebook/Data_analysis.ipynb) file. 
+
 ## Questions: 
 1. What is the average World Happiness Report Scores for the chosen countries?
 2. What is the prevelance of mental health and substance use disorders for the chosen countries?
